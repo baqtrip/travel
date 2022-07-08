@@ -6,6 +6,7 @@
     list-style-type: none;
     gap: 18px;
     display: flex;
+    height: 100%;
     align-items: flex-end;
     padding-bottom: 5px;
 }

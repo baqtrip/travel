@@ -18,7 +18,7 @@ header {
 @media (max-width: 992px) {
     .header {
         max-width: 940px;
-        margin: 28px auto 0;
+        margin: 28px auto;
     }
 }
 
@@ -31,6 +31,7 @@ header {
 
 @media (max-width: 761px) {
     .header {
+        max-width: 720px;
         margin: 28px auto;
     }
 }

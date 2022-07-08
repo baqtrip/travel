@@ -20,6 +20,7 @@
 
 @media (max-width: 760px) {
     .photo-grid {
+        max-width: 720px;
         margin: 0;
     }
 }

@@ -1,6 +1,7 @@
 .cover {
     margin: 92px auto 0;
-    background-image: url('../../images/__background.png');
+    color: #FFFFFF;
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../../images/__background.png');
     background-size: cover;
     height: 740px;
     display: flex;
@@ -8,10 +9,12 @@
     justify-content: center;
     flex-direction: column;
     max-width: 1184px;
-    position: relative;
-    z-index: 1;
+
 }
 
+.cover:hover {
+    background-image: linear-gradient(rgba(36, 34, 34, 0.7), rgba(36, 34, 34, .7)), url('../../images/__background.png');
+}
 
 @media (max-width: 1024px) {
     .cover {
@@ -25,6 +28,7 @@
     .cover {
         margin: 90px 0 0 0;
         max-width: 768px;
+        max-height: 480px;
         min-height: 200px;
     }
 }
