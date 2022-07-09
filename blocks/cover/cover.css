@@ -15,8 +15,6 @@
 @media (max-width: 1024px) {
     .cover {
         max-width: 1024px;
-        max-height: 640px;
-        min-height: 480px;
     }
 }
 
@@ -24,8 +22,6 @@
     .cover {
         margin: 90px 0 0 0;
         max-width: 768px;
-        max-height: 480px;
-        min-height: 200px;
     }
 }
 
@@ -33,6 +29,5 @@
     .cover {
         margin: 66px 0 0 0;
         max-width: 320px;
-        max-height: 200px;
     }
 }
