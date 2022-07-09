@@ -1,5 +1,4 @@
 .footer {
-    width: 100%;
     margin: 92px auto 0;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
@@ -16,13 +15,6 @@
     }
 }
 
-@media (max-width: 992px) {
-    .footer {
-        margin: 92px 0 0 0;
-    }
-}
-
-
 @media (max-width: 768px) {
     .footer {
         margin: 88px 24px 0 24px;
@@ -30,22 +22,10 @@
     }
 }
 
-@media (max-width: 767px) {
-    .footer {
-        margin: 88px auto 0;
-    }
-}
-
-@media (max-width: 620px) {
-    .footer {
-        flex-direction: column;
-        gap: 32px;
-        align-self: start;
-    }
-}
 
 @media (max-width: 320px) {
     .footer {
+        flex-direction: column;
         margin: 64px 16px 0 16px;
         max-width: 186px;
         gap: 48px;
