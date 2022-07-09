@@ -8,6 +8,6 @@
 @media (max-width: 620px) {
     .place__links {
         padding: 0 16px;
-        align-self: flex-start;
+
     }
 }

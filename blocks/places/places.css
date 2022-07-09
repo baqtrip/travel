@@ -21,12 +21,6 @@
     }
 }
 
-@media (max-width: 620px) {
-    .places {
-        display: block;
-    }
-}
-
 @media (max-width: 540px) {
     .places {
         padding: 20px 0 46px 0;
