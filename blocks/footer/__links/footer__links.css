@@ -2,7 +2,6 @@
     display: flex;
     box-sizing: border-box;
     gap: 18px;
-    margin-bottom: 24px;
 }
 
 @media (max-width: 620px) {
