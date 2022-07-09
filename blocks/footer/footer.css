@@ -51,5 +51,6 @@
         margin: 64px 16px 0 16px;
         max-width: 186px;
         max-height: 310px;
+        gap: 48px;
     }
 }
