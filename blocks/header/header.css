@@ -15,24 +15,26 @@ header {
     }
 }
 
+
 @media (max-width: 992px) {
     .header {
         max-width: 940px;
-        margin: 28px auto;
+        margin: 28px auto 0;
     }
 }
 
 @media (max-width: 768px) {
     .header {
         max-width: 720px;
-        margin: 28px 24px 0;
+        margin: 28px 24px 0 24px;
     }
 }
+
 
 @media (max-width: 761px) {
     .header {
         max-width: 720px;
-        margin: 28px auto;
+        margin: 28px auto 0;
     }
 }
 
